@@ -8,9 +8,8 @@ This repository contains the following add-ons
 
 ### [Cloudflare Tunnel](./addon-cloudflare-tunnel)
 
-Cloudflare Tunnel provides you with a secure way to connect your resources to Cloudflare without a publicly routable IP address.
+_Cloudflare Tunnel provides you with a secure way to connect your resources to Cloudflare without a publicly routable IP address._
 
-Original work based on: https://github.com/wlatic/hassio.addons
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
