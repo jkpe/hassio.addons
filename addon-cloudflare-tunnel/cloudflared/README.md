@@ -1,1 +1,0 @@
-Original work based on: https://github.com/wlatic/hassio.addons
