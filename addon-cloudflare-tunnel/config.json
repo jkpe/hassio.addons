@@ -1,8 +1,8 @@
 {
 	"name": "Cloudflare Tunnel",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"slug": "cloudflaretunnel",
-	"description": "Cloudflare Tunnel for Home Assistant",
+	"description": "Provides you with a secure way to connect your resources to Cloudflare without a publicly routable IP address",
 	"url": "https://github.com/jkpe/hassio.addons/blob/main/addon-cloudflare-tunnel/README.md",
 	"ingress": false,
 	"panel_icon": "mdi:docker",
