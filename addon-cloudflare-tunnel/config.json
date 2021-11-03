@@ -21,7 +21,7 @@
 	"options": {
 		"certificate": "/config/cert/argo.pem",
 		"tunnel_name": "homeassistant",
-		"hostname": "host",
+		"hostname": "home.example.com",
 		"service": "http://homeassistant:8123",
 		"hostname2": "null",
 		"service2": "null",
