@@ -1,6 +1,6 @@
 {
 	"name": "Cloudflare Tunnel",
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"slug": "cloudflaretunnel",
 	"description": "Cloudflare Tunnel for Home Assistant",
 	"url": "https://github.com/jkpe/hassio.addons/blob/main/addon-cloudflare-tunnel/README.md",

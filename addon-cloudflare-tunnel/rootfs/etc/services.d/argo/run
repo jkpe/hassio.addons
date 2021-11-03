@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bashio
 # ==============================================================================
-# Community Hass.io Add-ons: Cloudflare-argo
-# Starts CloudFlare Argo
+# Community Hass.io Add-ons: addon-cloudflare-tunnel
+# Starts Cloudflare Tunnel
 # ==============================================================================
 declare -a options
 declare certificate 
@@ -9,9 +9,9 @@ declare certificate
 certificate=$(bashio::config 'certificate')
 
 
-bashio::log.info "Starting CloudFlare Argo"
+bashio::log.info "Starting Cloudflare Tunnel"
 
 # / Check URL
-exec /opt/cloudflared --origincert=${certificate} tunnel --config=/config/cf-argo/config.yml run
+exec /opt/cloudflared --protocol quic --origincert=${certificate} tunnel --config=/config/cf-argo/config.yml run
 
 Sleep 15
